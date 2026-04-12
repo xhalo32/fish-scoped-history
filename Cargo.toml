@@ -1,0 +1,8 @@
+[package]
+name = "fish-scoped-history"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rusqlite = { version = "0.39.0", features = ["bundled"] }
+fish-history-api = { git = "https://github.com/xhalo32/fish-shell", rev = "2668c3b487e09c70afb8161370fd6cdcaa2fdbb9" }
